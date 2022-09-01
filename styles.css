@@ -1,0 +1,89 @@
+** {
+    border: 1px solid black;
+}
+
+body {
+    background-image: url("https://i.postimg.cc/BnFBtnNN/library.png");
+    background-size:contain;
+    padding: 85px 15px 40px 15px; 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+figcaption{
+    clear: right;
+    float:right;
+    min-width:200px;
+    margin-right: 10px;
+}  
+
+footer {
+    opacity:0.9;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h1, h2 {
+    font-family: didot, baskerville, georgia;
+    margin: auto;
+    
+}
+
+header {
+    background: linear-gradient(180deg, peachpuff, whitesmoke 90%);
+    border-radius: 25px 25px 0 0;
+    opacity:0.9;
+    padding: 15px 20px;
+}
+
+header, main {
+    height: fit-content;
+    margin: auto;
+    max-width:1050px;
+    min-width:219px;
+    text-align: center;
+}
+
+#image {
+    min-width: 219px;
+    margin: 20px 0 10px 5px;
+    max-width: 450px;
+}
+
+#img-div #image {
+    float: right;
+    height:100%;
+    width:100%;
+}
+
+#img-div {
+    margin: 0;
+}
+
+main {
+    background:linear-gradient(180deg, whitesmoke, lightsteelblue, peachpuff);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: papyrus, cochin, times new roman, times;
+    font-size: 1.18rem;
+    opacity:0.92;
+    padding:50px 20px;
+    text-align: center;
+}
+
+p { 
+    padding: 10px 0;
+    text-align: left;
+    text-indent: 2em;
+    max-width:98%
+}
