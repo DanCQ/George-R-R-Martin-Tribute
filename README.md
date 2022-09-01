@@ -1,4 +1,4 @@
-# George-R-R-Martin-Tribute-Page
+# George-R.-R.-Martin-Tribute-Page
 
 This is a coding challenge from Freecodecamp.org. <br />
 It's a tribute page to my favorite author George R. R. Martin. <br />
