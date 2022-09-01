@@ -2,6 +2,13 @@
     border: 1px solid black;
 }
 
+a {
+    text-decoration: none;
+    color: firebrick;
+    text-shadow: 0px 0px 1px black;
+
+}
+
 body {
     background-image: url("https://i.postimg.cc/BnFBtnNN/library.png");
     background-size:contain;
@@ -17,13 +24,31 @@ body {
 figcaption{
     clear: right;
     float:right;
+    font-family: cochin, times new roman, times;
     font-size: 0.92rem;
     min-width:160px;
-    padding:0 25px 15px 25px;
+    padding:0 35px 25px 25px;
 }  
 
 footer {
+    background: linear-gradient(180deg, whitesmoke, peachpuff 90%, black 1%, firebrick, black);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: cochin, times new roman, times;
+    font-size: 0.98rem;
     opacity:0.9;
+    padding: 20px;
+}
+
+footer div {
+    padding: 15px 0;
+}
+
+footer, header, main {
+    margin: 0 auto;
+    max-width:1050px;
+    min-width:219px;
+    text-align: center;
 }
 
 h1 {
@@ -47,24 +72,17 @@ header {
     padding: 15px 20px;
 }
 
-header, main {
-    height: fit-content;
-    margin: auto;
-    max-width:1050px;
-    min-width:219px;
-    text-align: center;
-}
-
 #image {
     min-width: 219px;
     margin: 20px 0 10px 5px;
-    max-width: 450px;
+    max-width: 100%;
+    height: auto;
+
 }
 
 #img-div #image {
     float: right;
-    height:100%;
-    width:100%;
+    width:450px;
 }
 
 #img-div {
@@ -72,14 +90,12 @@ header, main {
 }
 
 main {
-    background:linear-gradient(180deg, whitesmoke, lightsteelblue, peachpuff);
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    background:linear-gradient(180deg, whitesmoke, lightsteelblue, whitesmoke);
     font-family: papyrus, cochin, times new roman, times;
     font-size: 1.18rem;
     letter-spacing: 1px;
     opacity:0.92;
-    padding:50px 20px;
+    padding:50px 20px 0px 20px;
     text-align: center;
 }
 
