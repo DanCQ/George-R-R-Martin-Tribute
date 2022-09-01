@@ -1,4 +1,4 @@
-# George-R.-R.-Martin-Tribute
+# George-R-R-Martin-Tribute
 
 It's a tribute page to my favorite author George R. R. Martin. <br />
 
