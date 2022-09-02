@@ -1,12 +1,11 @@
+/* comment */
+
 ** {
     border: 1px solid black;
 }
 
-a {
-    text-decoration: none;
-    color: firebrick;
-    text-shadow: 0px 0px 1px black;
-
+i {
+    text-shadow: 0 0 1px black;
 }
 
 body {
@@ -21,30 +20,31 @@ body {
     display: table;
   }
 
-figcaption{
-    clear: right;
-    float:right;
+#fig-2 {
+    float:left;
+    max-width: 227px;
+    margin-right: 10px;
+}
+
+#fig-2 figcaption {
+    clear:left;
+    float: left;
+    margin-left: 12px;
+}
+
+#fig-2 img {
+    min-width: 214px;
+}
+
+figcaption {
     font-family: cochin, times new roman, times;
     font-size: 0.92rem;
-    min-width:160px;
-    padding:0 35px 25px 25px;
-}  
-
-footer {
-    background: linear-gradient(180deg, whitesmoke, peachpuff 90%, black 1%, firebrick, black);
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    font-family: cochin, times new roman, times;
-    font-size: 0.98rem;
-    opacity:0.9;
-    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 9px;
 }
 
-footer div {
-    padding: 15px 0;
-}
-
-footer, header, main {
+footer, header, main { 
+    clear: both;
     margin: 0 auto;
     max-width:1050px;
     min-width:219px;
@@ -55,53 +55,75 @@ h1 {
     font-size: 2.3rem;
 }
 
+h1, h2 {
+    font-family: didot, baskerville, georgia;
+    margin: auto;
+}
+
 h2 {
     font-size: 1.25rem;
 }
 
-h1, h2 {
-    font-family: didot, baskerville, georgia;
-    margin: auto;
-    
-}
-
 header {
-    background: linear-gradient(180deg, peachpuff, whitesmoke 90%);
+    background: linear-gradient(180deg, peachpuff, whitesmoke 95%);
     border-radius: 25px 25px 0 0;
     opacity:0.9;
-    padding: 15px 20px;
+    padding: 45px 20px;
 }
+
+img { 
+    display: block;
+    height:auto;
+    max-width: 100%;
+}
+
+#img-caption {
+    clear: right;
+    float:right;
+    padding-left: 25px;
+    padding-right: 35px;
+}  
 
 #image {
-    min-width: 219px;
-    margin: 20px 0 10px 5px;
-    max-width: 100%;
-    height: auto;
-
-}
-
-#img-div #image {
     float: right;
+    margin-left: 12px;
+    min-width:219px;
     width:450px;
+
 }
 
-#img-div {
+figure {
     margin: 0;
 }
 
 main {
-    background:linear-gradient(180deg, whitesmoke, lightsteelblue, whitesmoke);
+    background:linear-gradient(180deg, whitesmoke, lightsteelblue , whitesmoke, peachpuff 99.5%, black 99.2%, firebrick, black );
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     font-family: papyrus, cochin, times new roman, times;
     font-size: 1.18rem;
     letter-spacing: 1px;
-    opacity:0.92;
-    padding:50px 20px 0px 20px;
+    opacity:0.93;
+    padding:55px 20px 30px 20px;
     text-align: center;
 }
 
 p { 
-    padding: 10px 0;
+    margin:0 auto;
+    padding: 2.5px 0px;
     text-align: left;
     text-indent: 2em;
-    max-width:98%
+}
+
+#tribute-info {
+    font-family: cochin, times new roman, times;
+    font-size: 0.98rem;
+    opacity:0.9;
+    padding: 30px 0;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: firebrick;
+    text-shadow: 0px 0px 1px black;
 }
