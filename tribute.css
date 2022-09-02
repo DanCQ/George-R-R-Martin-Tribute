@@ -1,18 +1,10 @@
 /* comment */
 
-** {
-    border: 1px solid black;
-}
-
-i {
-    text-shadow: 0 0 1px black;
-}
-
 body {
     background-image: url("https://i.postimg.cc/xjc4L9qW/Library-Knight.jpg");
     background-size:contain;
     margin: 0;
-    padding: 90px 10px; 
+    padding: 100px 10px; 
 }
 
 .clearfix::after {
@@ -38,6 +30,10 @@ figcaption {
     font-size: 0.92rem;
     padding-top: 5px;
     padding-bottom: 10px;
+}
+
+figure {
+    margin: 0;
 }
 
 footer, header, main { 
@@ -68,20 +64,24 @@ header {
     padding: 45px 12px;
 }
 
+i {
+    text-shadow: 0 0 1px black;
+}
+
 img { 
     display: block;
     height:auto;
     min-width: 240px;
 }
 
-#img-caption {
+#img-caption, #fig-3 figcaption {
     clear: right;
     float:right;
-    padding-left: 25px;
+    padding-left: 15px;
     padding-right: 35px;
 }  
 
-#image {
+#image, #fig-3 img {
     float: right;
     margin-left: 12px;
     min-width:240px;
@@ -90,17 +90,13 @@ img {
 
 }
 
-figure {
-    margin: 0;
-}
-
 main {
     background:linear-gradient(180deg, whitesmoke, lightsteelblue , whitesmoke, peachpuff 99.5%, black 99.2%, firebrick, black );
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     font-family: papyrus, cochin, times new roman, times;
     font-size: 1.18rem;
-    font-weight:545;
+    font-weight:550;
     letter-spacing: 1px;
     opacity:0.93;
     padding:55px 12px 30px 12px;
@@ -116,12 +112,13 @@ p {
 
 #tribute-info {
     font-family: cochin, times new roman, times;
-    font-size: 0.98rem;
+    font-size: 0.99rem;
     opacity:0.9;
-    padding: 30px 0px;
+    padding: 50px 0px;
 }
 
-#tribute-link {
+#tribute-link, a {
+    font-size:1.1rem;
     text-decoration: none;
     color: firebrick;
     text-shadow: 0px 0px 1px black;
