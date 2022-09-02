@@ -11,7 +11,8 @@ i {
 body {
     background-image: url("https://i.postimg.cc/xjc4L9qW/Library-Knight.jpg");
     background-size:contain;
-    padding: 85px 15px 40px 15px; 
+    margin: 0;
+    padding: 90px 10px; 
 }
 
 .clearfix::after {
@@ -22,7 +23,7 @@ body {
 
 #fig-2 {
     float:left;
-    max-width: 227px;
+    max-width: 240px;
     margin-right: 10px;
 }
 
@@ -32,22 +33,18 @@ body {
     margin-left: 12px;
 }
 
-#fig-2 img {
-    min-width: 214px;
-}
-
 figcaption {
     font-family: cochin, times new roman, times;
     font-size: 0.92rem;
     padding-top: 5px;
-    padding-bottom: 9px;
+    padding-bottom: 10px;
 }
 
 footer, header, main { 
     clear: both;
     margin: 0 auto;
-    max-width:1050px;
-    min-width:219px;
+    max-width:1150px;
+    min-width:240px;
     text-align: center;
 }
 
@@ -68,13 +65,13 @@ header {
     background: linear-gradient(180deg, peachpuff, whitesmoke 95%);
     border-radius: 25px 25px 0 0;
     opacity:0.9;
-    padding: 45px 20px;
+    padding: 45px 12px;
 }
 
 img { 
     display: block;
     height:auto;
-    max-width: 100%;
+    min-width: 240px;
 }
 
 #img-caption {
@@ -87,8 +84,9 @@ img {
 #image {
     float: right;
     margin-left: 12px;
-    min-width:219px;
+    min-width:240px;
     width:450px;
+    max-width: 100%;
 
 }
 
@@ -102,9 +100,10 @@ main {
     border-bottom-right-radius: 25px;
     font-family: papyrus, cochin, times new roman, times;
     font-size: 1.18rem;
+    font-weight:545;
     letter-spacing: 1px;
     opacity:0.93;
-    padding:55px 20px 30px 20px;
+    padding:55px 12px 30px 12px;
     text-align: center;
 }
 
@@ -119,7 +118,7 @@ p {
     font-family: cochin, times new roman, times;
     font-size: 0.98rem;
     opacity:0.9;
-    padding: 30px 0;
+    padding: 30px 0px;
 }
 
 #tribute-link {
