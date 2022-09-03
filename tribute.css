@@ -7,12 +7,6 @@ body {
     padding: 100px 10px; 
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
 #fig-2 {
     float:left;
     max-width: 240px;
