@@ -95,6 +95,7 @@ img {
 }
 
 main {
+    column-gap: 3rem;
     column-width: 25rem;
     background:linear-gradient(180deg, whitesmoke, lightsteelblue , whitesmoke, peachpuff 99.6%, black 99.7%, firebrick 99.8%, black 99.9%);
     border-bottom-left-radius: 25px;
@@ -105,12 +106,12 @@ main {
     letter-spacing: 1px;
     min-width:300px;
     opacity:0.93;
-    padding:55px 12px 45px 12px;
+    padding:55px 20px 45px 20px;
 }
 
 p { 
     margin:0 auto;
-    padding: 3px 15px;
+    padding: 3px 0px;
     text-align: left;
     text-indent: 2em;
 }
@@ -126,6 +127,10 @@ p {
 
     body {
         padding: 150px 5px 60px 5px; 
+    }
+
+    main {
+        padding:25px 10px 45px 10px;
     }
 
     p {
