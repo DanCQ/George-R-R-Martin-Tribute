@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 a {
     color: firebrick;
     font-style: italic;
@@ -37,16 +41,17 @@ figure {
 footer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-family: cochin, times new roman, times;
     font-size: 0.99rem;
+    min-width:270px;
     opacity:0.9;
-    padding: 50px 0px;
+    padding: 50px 15px;
 }
 
 footer, header, main { 
     margin: 0 auto;
     max-width:1150px;
-    min-width:300px;
     text-align: center;
 }
 
@@ -55,11 +60,11 @@ footer, header, main {
     font-style: normal;
     font-weight: bold;
     text-shadow: 0px 0px 1.2px black;
+    width:fit-content;
 }
 
 h1 {
-    font-size: 2.3rem;
-    
+    font-size: 2.3rem;   
 }
 
 h1, h2 {
@@ -74,6 +79,7 @@ h2 {
 header {
     background: linear-gradient(180deg, peachpuff, whitesmoke 95%);
     border-radius: 25px 25px 0 0;
+    min-width:300px;
     opacity:0.9;
     padding: 45px 12px;
 }
@@ -89,16 +95,17 @@ img {
 }
 
 main {
-    column-width: 24rem;
+    column-width: 25rem;
     background:linear-gradient(180deg, whitesmoke, lightsteelblue , whitesmoke, peachpuff 99.6%, black 99.7%, firebrick 99.8%, black 99.9%);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     font-family: papyrus, cochin, times new roman, times;
     font-size: 1.18rem;
-    font-weight:525;
+    font-weight:550;
     letter-spacing: 1px;
+    min-width:300px;
     opacity:0.93;
-    padding:55px 12px 30px 12px;
+    padding:55px 12px 45px 12px;
 }
 
 p { 
