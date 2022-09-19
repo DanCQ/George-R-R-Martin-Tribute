@@ -44,7 +44,7 @@ footer {
     align-items: center;
     font-family: cochin, times new roman, times;
     font-size: 0.99rem;
-    min-width:270px;
+    min-width:268px;
     opacity:0.9;
     padding: 50px 15px;
 }
@@ -106,7 +106,7 @@ main {
     letter-spacing: 1px;
     min-width:300px;
     opacity:0.93;
-    padding:55px 20px 45px 20px;
+    padding:55px 25px 45px 25px;
 }
 
 p { 
@@ -130,7 +130,7 @@ p {
     }
 
     main {
-        padding:25px 10px 45px 10px;
+        padding:25px 15px 45px 15px;
     }
 
     p {
