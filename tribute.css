@@ -1,45 +1,65 @@
-/* comment */
+a {
+    color: firebrick;
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 0px 0px 0.2px black;
+}
 
 body {
     background-image: url("https://i.postimg.cc/xjc4L9qW/Library-Knight.jpg");
     background-size:contain;
     margin: 0;
-    padding: 100px 10px; 
+    padding: 225px 10px 100px 10px; 
 }
 
-#fig-2 {
-    float:left;
-    max-width: 240px;
-    margin-right: 10px;
+cite {
+    text-shadow: 0 0 1px #002546;
 }
 
-#fig-2 figcaption {
-    clear:left;
-    float: left;
-    margin-left: 12px;
+em {
+    text-shadow: 0 0 1px #B9BBFF;
 }
 
 figcaption {
     font-family: cochin, times new roman, times;
     font-size: 0.92rem;
     padding-top: 5px;
-    padding-bottom: 10px;
 }
 
 figure {
-    margin: 0;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    padding:15px 0;
+    margin:auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-family: cochin, times new roman, times;
+    font-size: 0.99rem;
+    opacity:0.9;
+    padding: 50px 0px;
 }
 
 footer, header, main { 
-    clear: both;
     margin: 0 auto;
     max-width:1150px;
-    min-width:240px;
+    min-width:300px;
     text-align: center;
+}
+
+#grrm-web {
+    font-size:1.4rem;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 0px 0px 1.2px black;
 }
 
 h1 {
     font-size: 2.3rem;
+    
 }
 
 h1, h2 {
@@ -59,61 +79,54 @@ header {
 }
 
 i {
-    text-shadow: 0 0 1px black;
+    text-shadow: 0 0 1px steelblue;
 }
 
 img { 
-    display: block;
-    height:auto;
     min-width: 240px;
-}
-
-#img-caption, #fig-3 figcaption {
-    clear: right;
-    float:right;
-    padding-left: 15px;
-    padding-right: 35px;
-}  
-
-#image, #fig-3 img {
-    float: right;
-    margin-left: 12px;
-    min-width:240px;
-    width:450px;
-    max-width: 100%;
-
+    max-width:475px;
+    width:100%;
 }
 
 main {
-    background:linear-gradient(180deg, whitesmoke, lightsteelblue , whitesmoke, peachpuff 99.5%, black 99.2%, firebrick, black );
+    column-width: 24rem;
+    background:linear-gradient(180deg, whitesmoke, lightsteelblue , whitesmoke, peachpuff 99.6%, black 99.7%, firebrick 99.8%, black 99.9%);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     font-family: papyrus, cochin, times new roman, times;
     font-size: 1.18rem;
-    font-weight:550;
+    font-weight:525;
     letter-spacing: 1px;
     opacity:0.93;
     padding:55px 12px 30px 12px;
-    text-align: center;
 }
 
 p { 
     margin:0 auto;
-    padding: 3px 0px;
+    padding: 3px 15px;
     text-align: left;
     text-indent: 2em;
 }
 
-#tribute-info {
-    font-family: cochin, times new roman, times;
-    font-size: 0.99rem;
-    opacity:0.9;
-    padding: 50px 0px;
+#young {
+    float:left;
+    max-width: 240px;
+    margin-right: 15px;
 }
 
-#tribute-link, a {
-    font-size:1.1rem;
-    text-decoration: none;
-    color: firebrick;
-    text-shadow: 0px 0px 1px black;
+
+@media (max-width:525px) {
+
+    body {
+        padding: 150px 5px 60px 5px; 
+    }
+
+    p {
+        clear: both;
+    }
+
+    #young {
+        float:none;
+        margin:auto;
+    }
 }
