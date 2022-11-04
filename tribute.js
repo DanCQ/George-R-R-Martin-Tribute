@@ -9,8 +9,7 @@ h1.addEventListener("click", function() {
     const header = document.querySelector(".header");
     const main = document.querySelector(".main");
     
-    body.style.backgroundRepeat = 'no-repeat';
-    body.style.backgroundSize = "100wv";
+    body.style.height = "100vh";
     body.style.overflow = "hidden";
     contact.style.visibility = "hidden";
     header.style.visibility = "hidden";
@@ -19,13 +18,12 @@ h1.addEventListener("click", function() {
   //returns all to normal  
   setTimeout(function() {
 
-    body.style.backgroundSize = "contain";
-    body.style.backgroundRepeat = 'repeat';
+    body.style.height = "auto";
     body.style.overflow = "auto";
     contact.style.visibility = "visible";
     header.style.visibility = "visible";
     main.style.visibility = "visible";
-  }, 10000); //waits 10 seconds to run
+  }, 5000); //waits 5 seconds to run
 
 });
 
