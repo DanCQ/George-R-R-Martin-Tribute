@@ -23,7 +23,7 @@ h1.addEventListener("click", function() {
     contact.style.visibility = "visible";
     header.style.visibility = "visible";
     main.style.visibility = "visible";
-  }, 5000); //waits 5 seconds to run
+  }, 10000); //waits 10 seconds to run
 
 });
 
