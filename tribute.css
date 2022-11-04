@@ -74,6 +74,7 @@ footer, header, main {
 }
 
 h1 {
+    cursor: pointer;
     font-size: 2.3rem;   
 }
 
