@@ -4,16 +4,16 @@ let got = new Audio("assets/GOT.mp3");
 //allows viewing of background image on title click 
 h1.addEventListener("click", function() {
 
-    const body = document.querySelector(".body");
-    const contact = document.querySelector(".contact");
-    const header = document.querySelector(".header");
-    const main = document.querySelector(".main");
+  const body = document.querySelector(".body");
+  const contact = document.querySelector(".contact");
+  const header = document.querySelector(".header");
+  const main = document.querySelector(".main");
     
-    body.style.height = "100vh";
-    body.style.overflow = "hidden";
-    contact.style.visibility = "hidden";
-    header.style.visibility = "hidden";
-    main.style.visibility = "hidden";
+  body.style.height = "100vh";
+  body.style.overflow = "hidden";
+  contact.style.visibility = "hidden";
+  header.style.visibility = "hidden";
+  main.style.visibility = "hidden";
     
   //returns all to normal  
   setTimeout(function() {
@@ -31,6 +31,6 @@ h1.addEventListener("click", function() {
 //keeping variable out of function prevents echo
 window.onclick = function() {
 
-    got.play();
+  got.play();
 
 };
