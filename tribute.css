@@ -100,6 +100,7 @@ i {
 }
 
 img { 
+    border-radius: 7px;
     min-width: 240px;
     max-width:475px;
     width:100%;
